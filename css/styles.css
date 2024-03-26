@@ -31,6 +31,7 @@ ol {
 img {
     display: block;
 }
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -158,6 +159,14 @@ span {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.card-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
 .section-one-list {
     display: flex;
     flex-direction: row;
@@ -167,15 +176,8 @@ span {
 .section-one-list li {
     flex-basis: calc(100% - (3 * 24px));
 }
-.section-one .section-card-header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
-.section-one .section-card-text {
+
+.card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -186,7 +188,7 @@ span {
     background-color:#f4f4fd;
     padding: 120px 0;
 }
-.section-two .section-header {
+.section-header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -203,47 +205,27 @@ span {
     gap: 24px;
 }
 
-.section-two .section-list-item {
+.section-two .list-item {
     background-color: #FFF;
     border-radius: 0 0 4px 4px;
     width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.section-two .section-card-caption {
+.section-two .card-caption {
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.section-two .section-card-header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
+.section-two .card-header {
     text-align: center;
 }
-.section-two .section-card-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.section-two .card-text {
     text-align: center;
 }
 .section-three {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.section-three .section-header {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 72px;
-}
+
 .section-three-list {
     display: flex;
     flex-direction: row;
@@ -252,7 +234,7 @@ span {
     row-gap: 48px;
     column-gap: 24px;
 }
-.section-three .section-card-caption {
+.section-three .card-caption {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -260,21 +242,7 @@ span {
     width: 360px;
     height: 120px;
 }
-.section-three .section-card-header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
-.section-two .section-card-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
